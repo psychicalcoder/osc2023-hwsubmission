@@ -1,0 +1,49 @@
+#+TITLE: Operating Systems Capstone 2023
+#+OPTIONS: toc:nil
+
+This repository is used for homework submission. *To protect your rights, please
+create a pull request (PR) before the demo and make sure the TA has merged your
+PR after the demo.*
+
+** How To Submit Homework
+
+#+BEGIN_QUOTE
+For those who are familiar with git. Here is an overview of the homework
+submission procedure.
+1) TA creates a branch named your student ID.
+2) You fork this repo.
+3) Base on the =<student id>= branch, you do your labs and put your code in the
+   forked repo.
+4) Create a PR to the =<student id>= branch in this repo to submit the homwork.
+5) TA merges the PR as a proof that you have demo the lab. 
+#+END_QUOTE
+
+1. Fork the repository on Github.
+   Uncheck the "Copy the =main= branch only".
+   If you do not want to see a lot of redundant branches in the forked repo,
+   keep the checkbox checked and follow the [[git-usage.org][guide]] to fetch your own branch.
+
+2. Clone the forked repo and switch to the branch named your student id. If you
+   cannot find your branch, ask TAs for help.
+
+3. Write down the following info in your =README.md= (or =README.org=,
+   =README.rst= etc.)
+   + Github account name
+   + Student ID
+   + Your name
+   + Any other information you want
+
+4. Design and implement your kernel in the forked repository.
+#+BEGIN_QUOTE
+Make good use of =.gitignore=. In te git history, We do not want to see
+binaries, objetive files, __MACOSX, python caches, super large test files,
+or any file that can be compiled from your source code.
+#+END_QUOTE
+
+5. Create a Github pull request.
+#+BEGIN_QUOTE
+As long as you meet the above requirements and the PR can be merged without
+conflicts, we do not care about what the forked repo look like.
+#+END_QUOTE
+
+** Happy Coding ~
