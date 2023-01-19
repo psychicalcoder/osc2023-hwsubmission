@@ -10,12 +10,12 @@ This repository is used for homework submission.
 #+BEGIN_QUOTE
 For those who are familiar with git, here is an overview of the homework
 submission procedure.
-a) TA creates a branch named your student ID.
-b) You fork this repo.
-c) Base on the =<student id>= branch, you do your labs and put your code in the
+1. TA creates a branch named your student ID.
+2. You fork this repo.
+3. Base on the =<student id>= branch, you do your labs and put your code in the
    forked repo.
-d) Create a PR to the =<student id>= branch in this repo to submit the homwork.
-e) TA merges the PR as a proof that you have demo the lab. 
+4. Create a PR to the =<student id>= branch in this repo to submit the homework.
+5. TA merges the PR as a proof that you have demo the lab. 
 #+END_QUOTE
 
 1. Fork the repository on Github.
