@@ -34,16 +34,16 @@ submission procedure.
    + Any other information you want
 
 4. Design and implement your kernel in the forked repository.
-#+BEGIN_QUOTE
-Make good use of =.gitignore=. In te git history, We do not want to see
-binaries, objetive files, __MACOSX, python caches, super large test files,
-or any file that can be compiled from your source code.
-#+END_QUOTE
+   #+BEGIN_QUOTE
+   Make good use of =.gitignore=. In te git history, We do not want to see
+   binaries, objetive files, __MACOSX, python caches, super large test files,
+   or any file that can be compiled from your source code.
+   #+END_QUOTE
 
 5. Create a Github pull request.
-#+BEGIN_QUOTE
-As long as you meet the above requirements and the PR can be merged without
-conflicts, we do not care about what the forked repo look like.
-#+END_QUOTE
+   #+BEGIN_QUOTE
+   As long as you meet the above requirements and the PR can be merged without
+   conflicts, we do not care about what the forked repo look like.
+   #+END_QUOTE
 
 ** Happy Coding ~
