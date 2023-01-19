@@ -22,7 +22,7 @@
 
 *Warning:* If you not no fully understand what are you doing, please backup the
 repo. TAs are not responsible for any mistake in this section or any damage
-produced by your git operation. If you need to modify the history that has been
+produced by your git operations. If you need to modify the history that has been
 merged into the upstream repo, please contact with TA.
 
 *** case 1: the file is added in the latest commit
@@ -38,7 +38,7 @@ What if you have pushed to Github? Force push again.
 
 *** case 2: the file is added in a old history.
 
-I suggest you to use git rebase to modify the history.
+I suggest that you use =git rebase= to modify the history.
 First, use =git log= to find the commit you added the file.
 Suppose the commit id is =7a45f90=. Use the commmit before =7a45f90= as the
 newbase.
@@ -54,7 +54,7 @@ save and close the editor.
   git commit --amend
 #+END_SRC
 
-Repeatedly use the following command until the rebase procedue finished.
+Repeatedly use the following command until the rebase procedure finished.
 
 #+BEGIN_SRC shell
   git rebase --continue
@@ -62,7 +62,7 @@ Repeatedly use the following command until the rebase procedue finished.
   git rm <filename>
 #+END_SRC
 
-Use might need to force push to the github repo.
+You might need to force push to the github repo.
 
 *Warning:* force push is not revertable.
 
