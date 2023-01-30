@@ -40,7 +40,7 @@ What if you have pushed to Github? Force push again.
 
 I suggest that you use =git rebase= to modify the history.
 First, use =git log= to find the commit you added the file.
-Suppose the commit id is =7a45f90=. Use the commmit before =7a45f90= as the
+Suppose the commit id is =7a45f90=. Use the commit before =7a45f90= as the
 newbase.
 
 #+BEGIN_SRC shell
